@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+    <title>购物车</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/cart.css" />
+    <link href="css/dialog.css" rel="stylesheet" />
+
+    <script src="js/data-goods.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/dialog.js"></script>
+    <script src="js/cart.js"></script>
+</head>
+
+<body>
+    <header>
+        <span class="icon-back back"><a href="index.html"></a></span>
+        <em>购物车</em>
+    </header>
+    <div class="container">
+    </div>
+    <footer>
+        <label><input type="checkbox" name="" id="allCheck" value="" />全选</label>
+        <em>总计：￥<span id="totPirces">0</span>.00</em>
+        <a href="#" id="pay">去结算</a>
+    </footer>
+    <!--模态框-->
+    <div class="modals">
+        <div class="dialog">
+            <h4>您确定要删除此商品吗？</h4>
+            <span class="ok">确定</span>
+            <span class="cancel">取消</span>
+        </div>
+    </div>
+</body>
+
+</html>
